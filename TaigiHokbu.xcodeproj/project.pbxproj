@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		854611D325BF130E00124D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611D225BF130E00124D70 /* AppDelegate.swift */; };
+		854611D525BF130E00124D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611D425BF130E00124D70 /* ViewController.swift */; };
+		854611D725BF130F00124D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854611D625BF130F00124D70 /* Assets.xcassets */; };
+		854611DA25BF130F00124D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854611D825BF130F00124D70 /* Main.storyboard */; };
+		854611E625BF131000124D70 /* TaigiHokbuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611E525BF131000124D70 /* TaigiHokbuTests.swift */; };
+		854611F125BF131000124D70 /* TaigiHokbuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611F025BF131000124D70 /* TaigiHokbuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		854611E225BF131000124D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854611C725BF130E00124D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854611CE25BF130E00124D70;
+			remoteInfo = TaigiHokbu;
+		};
+		854611ED25BF131000124D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 854611C725BF130E00124D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854611CE25BF130E00124D70;
+			remoteInfo = TaigiHokbu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		854611CF25BF130E00124D70 /* TaigiHokbu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaigiHokbu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		854611D225BF130E00124D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		854611D425BF130E00124D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		854611D625BF130F00124D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854611D925BF130F00124D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		854611DB25BF130F00124D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854611DC25BF131000124D70 /* TaigiHokbu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaigiHokbu.entitlements; sourceTree = "<group>"; };
+		854611E125BF131000124D70 /* TaigiHokbuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaigiHokbuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		854611E525BF131000124D70 /* TaigiHokbuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaigiHokbuTests.swift; sourceTree = "<group>"; };
+		854611E725BF131000124D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854611EC25BF131000124D70 /* TaigiHokbuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaigiHokbuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		854611F025BF131000124D70 /* TaigiHokbuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaigiHokbuUITests.swift; sourceTree = "<group>"; };
+		854611F225BF131000124D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854611CC25BF130E00124D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611DE25BF131000124D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611E925BF131000124D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854611C625BF130E00124D70 = {
+			isa = PBXGroup;
+			children = (
+				854611D125BF130E00124D70 /* TaigiHokbu */,
+				854611E425BF131000124D70 /* TaigiHokbuTests */,
+				854611EF25BF131000124D70 /* TaigiHokbuUITests */,
+				854611D025BF130E00124D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		854611D025BF130E00124D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854611CF25BF130E00124D70 /* TaigiHokbu.app */,
+				854611E125BF131000124D70 /* TaigiHokbuTests.xctest */,
+				854611EC25BF131000124D70 /* TaigiHokbuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854611D125BF130E00124D70 /* TaigiHokbu */ = {
+			isa = PBXGroup;
+			children = (
+				854611D225BF130E00124D70 /* AppDelegate.swift */,
+				854611D425BF130E00124D70 /* ViewController.swift */,
+				854611D625BF130F00124D70 /* Assets.xcassets */,
+				854611D825BF130F00124D70 /* Main.storyboard */,
+				854611DB25BF130F00124D70 /* Info.plist */,
+				854611DC25BF131000124D70 /* TaigiHokbu.entitlements */,
+			);
+			path = TaigiHokbu;
+			sourceTree = "<group>";
+		};
+		854611E425BF131000124D70 /* TaigiHokbuTests */ = {
+			isa = PBXGroup;
+			children = (
+				854611E525BF131000124D70 /* TaigiHokbuTests.swift */,
+				854611E725BF131000124D70 /* Info.plist */,
+			);
+			path = TaigiHokbuTests;
+			sourceTree = "<group>";
+		};
+		854611EF25BF131000124D70 /* TaigiHokbuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				854611F025BF131000124D70 /* TaigiHokbuUITests.swift */,
+				854611F225BF131000124D70 /* Info.plist */,
+			);
+			path = TaigiHokbuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854611CE25BF130E00124D70 /* TaigiHokbu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854611F525BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbu" */;
+			buildPhases = (
+				854611CB25BF130E00124D70 /* Sources */,
+				854611CC25BF130E00124D70 /* Frameworks */,
+				854611CD25BF130E00124D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaigiHokbu;
+			productName = TaigiHokbu;
+			productReference = 854611CF25BF130E00124D70 /* TaigiHokbu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		854611E025BF131000124D70 /* TaigiHokbuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854611F825BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbuTests" */;
+			buildPhases = (
+				854611DD25BF131000124D70 /* Sources */,
+				854611DE25BF131000124D70 /* Frameworks */,
+				854611DF25BF131000124D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854611E325BF131000124D70 /* PBXTargetDependency */,
+			);
+			name = TaigiHokbuTests;
+			productName = TaigiHokbuTests;
+			productReference = 854611E125BF131000124D70 /* TaigiHokbuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		854611EB25BF131000124D70 /* TaigiHokbuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854611FB25BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbuUITests" */;
+			buildPhases = (
+				854611E825BF131000124D70 /* Sources */,
+				854611E925BF131000124D70 /* Frameworks */,
+				854611EA25BF131000124D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				854611EE25BF131000124D70 /* PBXTargetDependency */,
+			);
+			name = TaigiHokbuUITests;
+			productName = TaigiHokbuUITests;
+			productReference = 854611EC25BF131000124D70 /* TaigiHokbuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854611C725BF130E00124D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					854611CE25BF130E00124D70 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					854611E025BF131000124D70 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 854611CE25BF130E00124D70;
+					};
+					854611EB25BF131000124D70 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 854611CE25BF130E00124D70;
+					};
+				};
+			};
+			buildConfigurationList = 854611CA25BF130E00124D70 /* Build configuration list for PBXProject "TaigiHokbu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 854611C625BF130E00124D70;
+			productRefGroup = 854611D025BF130E00124D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854611CE25BF130E00124D70 /* TaigiHokbu */,
+				854611E025BF131000124D70 /* TaigiHokbuTests */,
+				854611EB25BF131000124D70 /* TaigiHokbuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854611CD25BF130E00124D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854611D725BF130F00124D70 /* Assets.xcassets in Resources */,
+				854611DA25BF130F00124D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611DF25BF131000124D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611EA25BF131000124D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854611CB25BF130E00124D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854611D525BF130E00124D70 /* ViewController.swift in Sources */,
+				854611D325BF130E00124D70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611DD25BF131000124D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854611E625BF131000124D70 /* TaigiHokbuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854611E825BF131000124D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854611F125BF131000124D70 /* TaigiHokbuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		854611E325BF131000124D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854611CE25BF130E00124D70 /* TaigiHokbu */;
+			targetProxy = 854611E225BF131000124D70 /* PBXContainerItemProxy */;
+		};
+		854611EE25BF131000124D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 854611CE25BF130E00124D70 /* TaigiHokbu */;
+			targetProxy = 854611ED25BF131000124D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		854611D825BF130F00124D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854611D925BF130F00124D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		854611F325BF131000124D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		854611F425BF131000124D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		854611F625BF131000124D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaigiHokbu/TaigiHokbu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TaigiHokbu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		854611F725BF131000124D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TaigiHokbu/TaigiHokbu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TaigiHokbu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		854611F925BF131000124D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				INFOPLIST_FILE = TaigiHokbuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaigiHokbu.app/Contents/MacOS/TaigiHokbu";
+			};
+			name = Debug;
+		};
+		854611FA25BF131000124D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				INFOPLIST_FILE = TaigiHokbuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaigiHokbu.app/Contents/MacOS/TaigiHokbu";
+			};
+			name = Release;
+		};
+		854611FC25BF131000124D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				INFOPLIST_FILE = TaigiHokbuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaigiHokbu;
+			};
+			name = Debug;
+		};
+		854611FD25BF131000124D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z8M6R7T8R8;
+				INFOPLIST_FILE = TaigiHokbuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.TaigiHokbuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaigiHokbu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854611CA25BF130E00124D70 /* Build configuration list for PBXProject "TaigiHokbu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854611F325BF131000124D70 /* Debug */,
+				854611F425BF131000124D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854611F525BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854611F625BF131000124D70 /* Debug */,
+				854611F725BF131000124D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854611F825BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854611F925BF131000124D70 /* Debug */,
+				854611FA25BF131000124D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854611FB25BF131000124D70 /* Build configuration list for PBXNativeTarget "TaigiHokbuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854611FC25BF131000124D70 /* Debug */,
+				854611FD25BF131000124D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854611C725BF130E00124D70 /* Project object */;
+}

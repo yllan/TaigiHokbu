@@ -10,10 +10,10 @@
 		854611D325BF130E00124D70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611D225BF130E00124D70 /* AppDelegate.swift */; };
 		854611D525BF130E00124D70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611D425BF130E00124D70 /* ViewController.swift */; };
 		854611D725BF130F00124D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854611D625BF130F00124D70 /* Assets.xcassets */; };
-		854611DA25BF130F00124D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854611D825BF130F00124D70 /* Main.storyboard */; };
 		854611E625BF131000124D70 /* TaigiHokbuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611E525BF131000124D70 /* TaigiHokbuTests.swift */; };
 		854611F125BF131000124D70 /* TaigiHokbuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854611F025BF131000124D70 /* TaigiHokbuUITests.swift */; };
 		8546120225BF223E00124D70 /* TaigiHokbu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546120125BF223E00124D70 /* TaigiHokbu.swift */; };
+		857E233D25C078D200962126 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857E233C25C078D200962126 /* Main.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		854611D225BF130E00124D70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854611D425BF130E00124D70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		854611D625BF130F00124D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		854611D925BF130F00124D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854611DB25BF130F00124D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		854611DC25BF131000124D70 /* TaigiHokbu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaigiHokbu.entitlements; sourceTree = "<group>"; };
 		854611E125BF131000124D70 /* TaigiHokbuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaigiHokbuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,7 @@
 		854611F025BF131000124D70 /* TaigiHokbuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaigiHokbuUITests.swift; sourceTree = "<group>"; };
 		854611F225BF131000124D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8546120125BF223E00124D70 /* TaigiHokbu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaigiHokbu.swift; sourceTree = "<group>"; };
+		857E233C25C078D200962126 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				8546120125BF223E00124D70 /* TaigiHokbu.swift */,
 				854611D425BF130E00124D70 /* ViewController.swift */,
 				854611D625BF130F00124D70 /* Assets.xcassets */,
-				854611D825BF130F00124D70 /* Main.storyboard */,
+				857E233C25C078D200962126 /* Main.xib */,
 				854611DB25BF130F00124D70 /* Info.plist */,
 				854611DC25BF131000124D70 /* TaigiHokbu.entitlements */,
 			);
@@ -231,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				854611D725BF130F00124D70 /* Assets.xcassets in Resources */,
-				854611DA25BF130F00124D70 /* Main.storyboard in Resources */,
+				857E233D25C078D200962126 /* Main.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,17 +292,6 @@
 			targetProxy = 854611ED25BF131000124D70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		854611D825BF130F00124D70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				854611D925BF130F00124D70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		854611F325BF131000124D70 /* Debug */ = {

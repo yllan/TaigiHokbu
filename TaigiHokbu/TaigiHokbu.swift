@@ -17,6 +17,7 @@ struct SyntaxStructure : Decodable {
 enum TaigiError : Error {
     case jsonFormatIncorrect
     case cannotEscapeString
+    case cannotGetAudio
 }
 
 struct TaigiHokbu {
@@ -48,18 +49,15 @@ struct TaigiHokbu {
         }
     }
     
-    static func liamTaigi(_ kip: String) {
+    static func liamTaigi(_ kip: String, callback: @escaping (Result<Data, Error>) -> Void) {
         if let kipEncoded = kip.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed),
            let url = URL(string: "https://hapsing.ithuan.tw/bangtsam?taibun=\(kipEncoded)") {
             
             let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
                 if let data = data {
-                    TaigiHokbu.player = try? AVAudioPlayer(data: data)
-                    if let player = TaigiHokbu.player {
-                        player.prepareToPlay()
-                        player.volume = 1.0
-                        player.play()
-                    }
+                    callback(.success(data))
+                } else {
+                    callback(.failure(TaigiError.cannotGetAudio))
                 }
             }
             task.resume()
